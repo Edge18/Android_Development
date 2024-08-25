@@ -46,14 +46,13 @@ fun Greeting(modifier: Modifier = Modifier) {
 
     Column(
         modifier = modifier.padding(all=8.dp)
-            .fillMaxWidth(),
+                            .fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(10.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(painter = painterResource(id = R.drawable.faq_2), contentDescription = "FAQ Image")
         Text(
             text = "1. What happens if I enter the wrong OTP during account verification?",
-            modifier = modifier,
             color = Color(red = 0.357f, green = 0.29f, blue = 0.725f, alpha = 1.0f),
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold,
@@ -65,7 +64,6 @@ fun Greeting(modifier: Modifier = Modifier) {
        )
         Text(
             text = "2. Where can I contact if I face any issues while booking a hotel using app? ",
-            modifier = modifier,
             color = Color(red = 0.357f, green = 0.29f, blue = 0.725f, alpha = 1.0f),
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold
@@ -76,7 +74,6 @@ fun Greeting(modifier: Modifier = Modifier) {
         )
         Text(
             text = "3. Is my personal information secure when using this app? ",
-            modifier = modifier,
             color = Color(red = 0.357f, green = 0.29f, blue = 0.725f, alpha = 1.0f),
             fontSize = 22.sp,
             fontWeight = FontWeight.Bold
